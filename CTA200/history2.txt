@@ -1,0 +1,493 @@
+    1  /cita/local/bin/passwd
+    2  excit
+    3  exit
+    4  whoami
+    5  pwd
+    6  cd /
+    7  pwd
+    8  ls
+    9  ls -la
+   10  dir
+   11  cd ~xma
+   12  ls -la
+   13  cd /home/cta200
+   14  ls
+   15  finger cta200
+   16  finger xma
+   17  cd /mnt/scratch-lustre
+   18  pwd
+   19  ls
+   20  cd xma
+   21  ls
+   22  pwd
+   23  cd ..
+   24  pwd
+   25  cd xma
+   26  pwd
+   27  ps -aus
+   28  ps -ux | x
+   29  cd /home/cta200
+   30  find /name '*/home/cta200'
+   31  pwd
+   32  find -name '*auss*'
+   33  ls -la
+   34  find -name '*auss*'
+   35  mkdi /mnt/scratch-lustre/xma/gauss2d
+   36  mkdir /mnt/scratch-lustre/xma/gauss2d
+   37  pwd
+   38  src
+   39  /mnt/scratch-lustre/xma/gauss2d
+   40  cp -av /home/cta200/Research/gauss2d /mnt/scratch-lustre/xma/guass2d
+   41  pwd
+   42  cd /mnt/scratch-lustre/xma
+   43  ls
+   44  cp -av /home/cta200/Research/gauss2d /mnt/scratch-lustre/$xma/gauss2d
+   45  mkdir /mnt/scratch-lustre/xma/gauss2d
+   46  mkdir /mnt/scratch-lustre/$xma/gauss2d
+   47  pwd
+   48  ls
+   49  cd /mnt/scratch-lustre/xma/gauss2d
+   50  ls
+   51  pwd
+   52  cd /mnt/scratch-lustre/xma
+   53  ls -la
+   54  cd gauss2d
+   55  ls -la
+   56  pwd
+   57  ls
+   58  ls -la
+   59  /mnt/scratch-lustre
+   60  whoistheowner
+   61  echo $USER
+   62  pwd
+   63  /mnt/scratch-lustre/xma
+   64  less gauss2d.cc
+   65  ls -la
+   66  pwd
+   67  cd /home/cta200/Research/gauss2d
+   68  pwd
+   69  ls -la
+   70  cp -av /home/cta200/Research/gauss2d /mnt/scratch-lustre/xma/gauss2d
+   71  cd /mnt/scratch-luster/xma
+   72  cd /mnt/scratch-lustre/xma/gauss2d
+   73  ls -la
+   74  cd gauss2d
+   75  ls
+   76  less gauss2d.cc
+   77  jobs
+   78  less gauss2d.cc
+   79  cat Makefile
+   80  pwd
+   81  vim plot.py
+   82  ls
+   83  gedit plot.py
+   84  module avail
+   85  module avail gcc
+   86  module load gcc/5.4.0
+   87  g++ gauss2d.cc
+   88  ls -lt
+   89  ls -la
+   90  pwd
+   91  cd..
+   92  cd ..
+   93  pwd
+   94  ls -la
+   95  cd gauss2d
+   96  ls -la
+   97  cd ..
+   98  ls
+   99  cd gauss 2d
+  100  cd gauss2d
+  101  ls
+  102  pwd
+  103  ls -la
+  104  ls -lt
+  105  diff a.out gauss2d
+  106  ls -la
+  107  ./gauss2d > data.txt
+  108  rm data.txt
+  109  ls -la
+  110  ./gauss2d > data.txt
+  111  pwd
+  112  cd ..
+  113  pwd
+  114  ./gauss2d > data.txt
+  115  ls -la
+  116  pwd
+  117  cd gauss2d
+  118  pwd
+  119  ls
+  120  ls_la
+  121  ls -la
+  122  cd ..
+  123  ls
+  124  rm data.txt
+  125  cd gauss2d
+  126  ls
+  127  ls -la
+  128  module load python/2.7.12
+  129  ./script.py
+  130  python script.py
+  131  ./plot.py
+  132  ./plot.py < data.txt
+  133  ./plot.py data.txt
+  134  exit
+  135  cd /mnt/exit
+  136  cd /mnt/scratch-lustre/xma/gauss2d
+  137  ls
+  138  cd gauss2d
+  139  ls
+  140  module load gcc/5.4.0
+  141  module load python/2.7.12
+  142  ./script.py data.txt
+  143  ./plot.py data.txt
+  144  g++ gauss2d.cc
+  145  ls -lt
+  146  ./gauss2d > data.txt
+  147  cd ..
+  148  pwd
+  149  ./gauss2d > data.txt
+  150  cd gauss2d
+  151  ls
+  152  ls -la
+  153  pwd
+  154  ./gauss2d > data.txt
+  155  ./gauss2d/gauss2d > data/txt
+  156  ./gauss2d/gauss2d > data.txt
+  157  ./gauss2d.cc > data.txt
+  158  pwd
+  159  ./gauss2d > data.txt
+  160  ls -lt
+  161  ls -la
+  162  ./gauss2d > data.txt
+  163  pw
+  164  pwd
+  165  ./gauss2d > data.txt
+  166  ls -la
+  167  rm data.txt
+  168  ./a.out
+  169  ./gauss2d > data.txt
+  170  ./a.out > data.txt
+  171  ls -la
+  172  module load python/2.7.12
+  173  ./plot.py data.txt
+  174  ./gauss2d -help
+  175  ./a.out -help
+  176  grep "dim\s*=\s*[0-9]" *.cc
+  177  grep "sigma\s*=\s*[0-9]" *.cc
+  178  ./a.out -xdim 100 -ydim 50 | ./plot.py
+  179  ./a.out -xsigma 30 | ./plot.py
+  180  ./a.out -xdim 1000 -ydim 1000 | ./plot.pu
+  181  ./gauss2d -xdim 1000 -ydim 1000 | ./plot.py
+  182  ./a.out -xdim 1000-ydim 1000 | ./plot.py
+  183  ./a.out -xdim 10000 -ydim 10000 | ./plot.py
+  184  fg
+  185  bg
+  186  ps aux
+  187  kill -9 403112
+  188  kill -9 622228
+  189  kill -9 392248
+  190  ls -la
+  191  git config --global user.name "Claire"
+  192  git config --global user.email myemail@utoronto.ca
+  193  cd ~
+  194  mkdir -p repos/gauss2d.git
+  195  cd repos/gauss2d.git
+  196  git init --bare
+  197  pwd
+  198  cd /mnt/scratch-lustre/$USER/gauss2d
+  199  git init
+  200  echo "*.o" > .gitignore
+  201  pwd
+  202  ls
+  203  cd gauss2d
+  204  ls
+  205  cd ..
+  206  pwd
+  207  git add gauss2d.cc Makefile plot.py .gitignore
+  208  cd gauss2d
+  209  git add gauss2d.cc Makefile plot.py .gitignore
+  210  git --
+  211  git config -- global user.name "Xiaoyi"
+  212  git config --global user.name "Xiaoyi"
+  213  git config --global user.email xiaoyi.ma@mail.utoronto.ca
+  214  mkdir -p repos
+  215  cd repos/
+  216  mkdir gauss2d.git
+  217  cd gauss2d.git
+  218  ls
+  219  git init --bare
+  220  dir
+  221  pwd
+  222  rm gauss2d.git
+  223  cd..
+  224  cd ..
+  225  pwd
+  226  cd ..
+  227  rm repos
+  228  rm -rf repos
+  229  pwd
+  230  cd /home/xma
+  231  pwd
+  232  ls
+  233  cd ~
+  234  pwd
+  235  mkdir -p repos/gauss2d.git
+  236  cd repos/gauss2d.git
+  237  pwd
+  238  git init --bare
+  239  cd /mnt/scratch-lustre/$USER/gauss2d
+  240  pwd
+  241  cd /gauss2d
+  242  cd gauss2d
+  243  pwd
+  244  git init
+  245  echo "*.o" > .gitignore
+  246  git add gauss2d.cc Makefile plot.py .gitignore
+  247  git status
+  248  git commit -m "Working 2D Gaussian array generation code and plotting script"
+  249  pwd
+  250  dir
+  251  pwd
+  252  ls -la
+  253  cd .gitignore
+  254  cd./gitignore
+  255  pwd
+  256  ls -ls
+  257  ls -la
+  258  cd ~
+  259  ls -la
+  260  cd repos
+  261  ls -la
+  262  pushd /mnt/scrath-lustre/xma/gauss2d/gauss2d
+  263  ls -la
+  264  cd /mnt/scratch-lustre/xma/gauss2d/gauss2d
+  265  ls -la
+  266  status
+  267  git status
+  268  rm a.out
+  269  rm data.txt
+  270  git status
+  271  git add gauss2d.cc Makefile plot.py .gitignore
+  272  git status
+  273  git log
+  274  git remote add origin /home/xma/repos/gauss2d.git
+  275  .git/config
+  276  cat .git/config
+  277  git push --set-upstream origin master
+  278  vim gauss2d.cc
+  279  vim plot.py
+  280  git status
+  281  git diff
+  282  git add -u
+  283  git status
+  284  git commit -m "Added program description. Renamed sigma to dev[iation]"
+  285  git status
+  286  vim gauss2d.cc
+  287  git clone https://github.com/xiaoyiangelama/CTA200.git
+  288  pwd
+  289  ls -la
+  290  ls
+  291  cd CTA200
+  292  pwd
+  293  git add README.me
+  294  mkdir README.me
+  295  ls
+  296  rm README.me
+  297  mr -rf README.me
+  298  rm -rf README.me
+  299  ls
+  300  vim README.md
+  301  ls
+  302  pwd
+  303  git add LICENSE
+  304  ls
+  305  git mit
+  306  git --help
+  307  git add LICENSE
+  308  ls
+  309  ls -la
+  310  git add LICENSE.md
+  311  ls
+  312  mkdir LICENSE.md
+  313  ls
+  314  vim LICENSE.md
+  315  rm -rf LICENSE.md
+  316  ls
+  317  git status
+  318  git add LICENSE.txt
+  319  ls
+  320  cd CTA200
+  321  ls
+  322  rm history.txt
+  323  git status
+  324  git remote add origin https://github.com/xiaoyiangelama/CTA200.git
+  325  git status
+  326  git push
+  327  cd ~
+  328  ls
+  329  cd CTA200
+  330  vim LICENSE.md
+  331  vim README.md
+  332  vim Makefile
+  333  cd ..
+  334  rm CTA200
+  335  rm -rf CTA200
+  336  ls
+  337  mkdir CTA200
+  338  cd CTA200
+  339  ls
+  340  git add README.md
+  341  echo "*.o" > README.md
+  342  git add README.md
+  343  vim README.md
+  344  echo "*.o" > LICENSE.md
+  345  vim LICENSE.md
+  346  git status
+  347  git add LICENSE.md
+  348  vim LICENSE.md
+  349  git status
+  350   pwd
+  351  git commit -m "Add file README.md and LICENSE.md for general info"
+  352  git status
+  353  cp -av /home/xma/CTA200H/assignment1_2020/average.h /home/xma/CTA200
+  354  cp -av /home/xma/CTA200H/assignment1_2020/average.c /home/xma/CTA200
+  355  cp -av /home/xma/CTA200H/assignment1_2020/main.c /home/xma/CTA200
+  356  ls -la
+  357  ls
+  358  vim Makefile
+  359  ls
+  360  git add Makefile
+  361  ls
+  362  git status
+  363  make
+  364  ls
+  365  rm Makefile
+  366  git status
+  367  cp -av /home/cta200/Research/gauss2d/Makefile /home/xma/CTA200
+  368  ls
+  369  vim Makefile
+  370  make
+  371  ls
+  372  ls -la
+  373  make
+  374  vim Makefile
+  375  make
+  376  ls
+  377  git status
+  378  git commit -m "Copy average.c,average.h and main.c to respository and add Makefile"
+  379  git statu
+  380  git status
+  381  git remote add orign http://github.com/xiaoyiangelama/cta200.git
+  382  git status
+  383  ls
+  384  ls -la
+  385  rm .
+  386  rm -rf .
+  387  git push -u origin master
+  388  git log
+  389  git push --set-upstream origin master
+  390  git remote add origin http://github.com/xiaoyiangelama/CTA200.git
+  391  git push --set-upstream origin master
+  392  git push -u origin master
+  393  git remote add origin https://github.com/xiaoyiangelama/CTA200.git
+  394  git push
+  395  ls
+  396  rm .git
+  397  vim main.c
+  398  git status
+  399  git commit -m "Change the program in main.c"
+  400  git log
+  401  vim main.c
+  402  git add main.c
+  403  git status
+  404  ls
+  405  git commit -m "Change C program in main.c"
+  406  git log
+  407  history >history.txt
+  408  ls
+  409  history > history.txt
+  410  ls
+  411  git status
+  412  git add history.txt
+  413  ls -la
+  414  vim history.txt
+  415  git status
+  416  git commit -m "Add history.txt to the respository"
+  417  git lof
+  418  git log
+  419  git push
+  420  ls
+  421  cd CTA200
+  422  ls
+  423  git log
+  424  vim makefile
+  425  vim Makefile
+  426  module list
+  427  main.o
+  428  ls
+  429  vim main.o
+  430  make
+  431  make main.c
+  432  ls
+  433  make average.c
+  434  ls
+  435  make clean
+  436  ls
+  437  rm main.o
+  438  vim Makefile
+  439  cd CTA200H/home/murray/CYA200/cta200h_2020/CTA200H
+  440  cd CTA200H/home/murray/CTA200/cta200h_2020/CTA200H
+  441  /home/murray
+  442  cd /home/murray
+  443  ls
+  444  cd CTA200
+  445  ls
+  446  cta200h_2020
+  447  cd cta200h_2020
+  448  ls
+  449  cd CTA200H
+  450  ls
+  451  problemset1
+  452  cd problemset1
+  453  ls
+  454  cd ..
+  455  cd sandbox
+  456  ls
+  457  pwd
+  458  cd ~
+  459  pwd
+  460  /home/xma/CTA200
+  461  cd CTA200
+  462  ls
+  463  pwd
+  464  cp -av /home/murray/CTA200/cta200h_2020/CTA200H/sandbox/makefile /home/xma/CTA200
+  465  ls
+  466  vim Makefile
+  467  vim makefile
+  468  make main
+  469  module load gcc/5.4.0
+  470  make main
+  471  module list
+  472  vim makefile
+  473  vim m Makefile
+  474  ls
+  475  vim Makefile
+  476  vim makefile
+  477  make main
+  478  make averag
+  479  make average
+  480  ls
+  481  vim main.c
+  482  make main
+  483  ls
+  484  make clean
+  485  ls
+  486  make main
+  487  ls
+  488  git remote set-url origin "http://xiaoyiangelama@gitub.com/xiaoyiangelama/CTA200.git
+"
+  489  git remote -v
+  490  git status
+  491  git log
+  492  history > history2.txt
