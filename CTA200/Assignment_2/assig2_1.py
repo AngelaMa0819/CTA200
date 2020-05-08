@@ -1,17 +1,30 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+Created on Wes May 6 15:34:00 2020
 
-This is a temporary script file.
+@author: Xiaoyi Ma
 """
 
 import numpy as np
 import matplotlib.pyplot as plt
-import math
+
 
 
 
 def draw(x_i,x_f,y_i,y_f):
+    
+    """
+    
+    Draw the color code graph for the ability of convergence
+    of sequence that made of c
+    
+    Parameters: 
+        the start and end value for x and y
+    
+    Output: 
+        the graph for convergence
+        
+    """
     
     #setup the array for x,y and c
     x = np.linspace(x_i,x_f,100)
@@ -19,8 +32,7 @@ def draw(x_i,x_f,y_i,y_f):
    
     #setup the array for bound and diverge c
     
-    c_bound = []
-    c_diverge = []
+    
     where_diverge = np.zeros((100,100))
     
     #asign values to the c array
@@ -28,41 +40,30 @@ def draw(x_i,x_f,y_i,y_f):
         for j in range(len(y)):
             c = x[i] + y[j] * 1j
             
-           
+            
             #setup the array for z and its magnitude
             z = np.zeros(100,dtype=complex)
-            z_mag = np.zeros(100,dtype=complex)
-    
-        
+            
+            
+            
             #asign value to the z array
             for k in range(len(z)-1):
-        
-                z[k+1] = (np.real(z[k]) ** 2 + np.imag(z[k]) ** 2) + c
-        
-            #asign value to the z_mag array
-            for k in range(len(z)):
-            
-                z_mag[k] = np.real(z[k]) ** 2 + np.imag(z[k]) ** 2
-          
-            
-            #exam where the array diverge
-            if math.isfinite(z_mag[len(z)-1])== True:
                 
-                c_bound.append(c)
-                where_diverge[j,i]=len(z_mag)
-                
-            
-            else:
-                c_diverge.append(c)
-                for k in range(len(z_mag)):
-                    if np.isinf(z[k]) == True:
-                        
+                if np.isinf(np.abs(z[k])**2) == True:
+                            
                         where_diverge[j,i]=k
                         
                         break
-    
-    
-    
+                else:
+        
+                    z[k+1] = np.abs(z[k]) ** 2 + c
+        
+            
+            #exam where the array diverge
+            if where_diverge[j,i] == 0:
+                
+                where_diverge[j,i]=len(z)
+            
     #plot the result with a color bar for all points
     
     X,Y = np.meshgrid(x,y) 
@@ -73,14 +74,9 @@ def draw(x_i,x_f,y_i,y_f):
     plt.title("Level of Divergence of the Magnitude")
     plt.show()
     
-    
-            
-        
-        
-        
-        
+     
    
-#call the function for different range
+#call the function for different ranges
 draw(-2,2,-2,2)
 draw(-1,1,-1,1)
 draw(-0.5,0.5,-0.5,0.5)
